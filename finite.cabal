@@ -1,0 +1,23 @@
+Name:          finite
+Version:       0.1.0
+License-file:  LICENSE
+Cabal-Version: >= 1.2
+License:       BSD3
+Author:	       Anton Kholomiov
+Maintainer:    <anton.kholomiov@gmail.com>
+Synopsis:      data types for finite enums
+Description:   Describes intersection of Enum and Bounded classes
+
+Category:      Data
+Stability:     Experimental
+Tested-With:   GHC==6.13.1
+Build-Type:    Simple
+
+
+Library
+  Build-Depends:
+        base >= 4, base < 5
+  Hs-Source-Dirs:      src/
+
+  Exposed-Modules:
+        Data.Finite
